@@ -10,4 +10,4 @@ async def start(e):
     if not id in devrs:
         await e.reply('🙂')
         return
-    await e.reply(f'اهلا عزيزي ( {await mention(e)} ) شنو تحب تسوي اليوم؟', button=b)
+    await e.reply(f'اهلا عزيزي ( {await mention(e)} ) شنو تحب تسوي اليوم؟', buttons=b)
